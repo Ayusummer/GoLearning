@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	hello "GoLearning/pkg/hello"
+)
 
 func main() {
-	name := "Go Developers"
-	fmt.Println("Azure for", name)
+
+	// hello.PrintHelloWorld()
+	// hello.PrintHelloVSCode()
+	hello.SemiColon()
 }
